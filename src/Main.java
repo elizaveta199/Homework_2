@@ -8,9 +8,9 @@
 
             int x=0;
 
-            if ((isGreenLight==false)&&(speedOfPlayer1>0)) {x++;}
-            if ((isGreenLight==false)&&(speedOfPlayer2>0)) {x++;}
-            if ((isGreenLight==false)&&(speedOfPlayer3>0)) {x++;}
+            if ((!isGreenLight)&&(speedOfPlayer1>0)) {x++;}
+            if ((!isGreenLight)&&(speedOfPlayer2>0)) {x++;}
+            if ((!isGreenLight)&&(speedOfPlayer3>0)) {x++;}
 
             System.out.println("Выбыло игроков: " + x);
 
