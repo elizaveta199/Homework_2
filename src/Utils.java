@@ -6,6 +6,5 @@ public class Utils {
         if ((!isGreenLight)&&(speedOfPlayer>0)) {x=false;} else {x=true;};
         return  x;
     }
-
 }
 

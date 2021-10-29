@@ -38,5 +38,4 @@ public class UtilsTest {
 
         Assertions.assertEquals(expected,actual, "Player is win");
     }
-
 }
